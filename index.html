@@ -15,9 +15,9 @@
             <img class="header__logo" src="	https://uploads-ssl.webflow.com/628c38ada0108974092e8941/62fffc5108414ba5828fde3e_Kodif-SVG.svg" alt="logo">
             <nav class="header__menu menu">
                 <ul class="menu__list">
-                    <li class="menu__item"><a class="menu__link" href="">How It Works</a></li>
-                    <li class="menu__item"><a class="menu__link" href="">Features</a></li>
-                    <li class="menu__item"><a class="menu__link" href="">Contact Us</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#how-it-works">How It Works</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#features">Features</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Contact Us</a></li>
                 </ul>
             </nav>
             <button class="menu__btn">login <img class="arow__btn" src="./assets/icons/arow_png.png" alt="arow"/></button>
@@ -37,7 +37,7 @@
              </p>
              <form class="search-wrapper cf">
                 <input type="text" placeholder="Enter your email address" required style="box-shadow: none">
-                <button type="submit">Book Demo</button>
+                <button type="submit">Book Demo<img class="arow__btn" src="./assets/icons/arow_png.png" alt="arow"/></button>
             </form>
            </div>
            <div class="main__block2">
@@ -56,12 +56,12 @@
         </div>
      </section>
 
-     <section class="diagrams__container _container">
+     <section class="diagrams__container _container reveal fade-bottom">
         <img src="https://uploads-ssl.webflow.com/628c38ada0108974092e8941/62da133b8e78044cb30b77ac_Table.svg" alt="diagram">
            
       </section>
 
-     <section class="features__container _container">
+     <section class="features__container _container reveal fade-bottom  ">
         <div class="feature__card">
             <img src="https://uploads-ssl.webflow.com/628c38ada0108974092e8941/62d4eadc5d3ddba6be9b6cfa_Group%2039525.svg" alt="icon">
             <h3>Reduction in customer support costs</h3>
@@ -82,9 +82,9 @@
         </div>
      </section>
      <!--------- How to works -------->
-     <section class="how__it__works _container">
+     <section id="how-it-works"class="how__it__works _container" >
         <div class="text__block1">How It Works</div>
-        <div class="feature__wrapper">
+        <div class="feature__wrapper reveal fade-left">
             <img src="https://uploads-ssl.webflow.com/628c38ada0108974092e8941/6308ed37cb6a36dc290220dd_user%20input.png" alt="photo">
             <div class="description__block">
                 <div>CX Flows</div>
@@ -95,7 +95,7 @@
             </div>
 
         </div>
-        <div class="feature__wrapper">
+        <div class="feature__wrapper reveal fade-right">
             <div class="description__block">
                 <div>User Interface</div>
                 <h3>Easily edit customer facing UI with mobile and web SDKs</h3>
@@ -105,7 +105,7 @@
             </div>
             <img src="https://uploads-ssl.webflow.com/628c38ada0108974092e8941/6308f37b8c4dcb3815880ef8_user%20interface.png" alt="photo">
         </div>
-        <div class="feature__wrapper">
+        <div class="feature__wrapper reveal fade-left">
             <img src="https://uploads-ssl.webflow.com/628c38ada0108974092e8941/6308f741ebe1b40080987ecb_heatmap.png" alt="photo">
             <div class="description__block">
                 <div>Analytics</div>
@@ -115,7 +115,7 @@
                 </p>
             </div>
         </div>
-        <div class="feature__wrapper">
+        <div class="feature__wrapper reveal fade-right">
             <div class="description__block">
                 <div>A/B Testing</div>
                 <h3>Experiment</h3>
@@ -125,7 +125,7 @@
             </div>
             <img src="https://uploads-ssl.webflow.com/628c38ada0108974092e8941/6308fddfe8ab15622ec32e14_B%20testing.png" alt="photo">
         </div>
-        <div class="feature__wrapper">
+        <div class="feature__wrapper reveal fade-left">
             <div class="custom__img__group">
             <img id="custom_img" src="https://uploads-ssl.webflow.com/628c38ada0108974092e8941/62da595c16965734b83ff60c_Group%2035983.svg" alt="photo">
             <img id="moving__img" src="https://uploads-ssl.webflow.com/628c38ada0108974092e8941/62da594fa4c1faaa0b7ddd48_Group%2035958.svg" alt="photo">
@@ -140,70 +140,13 @@
         </div>
      </section>
      <!-------- solution ------->
-     <section class="solutions__wrapper _container">
-        <div class="solution__heading">
-            <div class="title__block">Solutions</div>
-            <h3>Developed for teams of all sorts and sizes</h3>
-        </div>  
-        <div class="block__content_with_tabs">
-            <main class="main__tab">
-                <input class="tab__input" id="tab1" type="radio" name="tabs" checked>
-                <label class="tab__label" for="tab1">Codepen</label>
-                  
-                <input class="tab__input" id="tab2" type="radio" name="tabs">
-                <label class="tab__label" for="tab2">Dribbble</label>
-                  
-                <input class="tab__input" id="tab3" type="radio" name="tabs">
-                <label class="tab__label" for="tab3">Dropbox</label>
-                  
-                <input class="tab__input" id="tab4" type="radio" name="tabs">
-                <label class="tab__label" for="tab4">Drupal</label>
-                  
-                <section class="tab__section" id="content1">
-                  <p>
-                    lorembek
-                    </p>
-                  <p>
-                            loremgul
-                </p>
-                </section>
-                  
-                <section id="content2">
-                  <p>
-                    l
-                  </p>
-                  <p>
-                   23                  </p>
-                </section>
-                  
-                <section id="content3">
-                  <p>
-                  00000
-                </p>
-                  <p>
-                    nnope
-                </p>
-                </section>
-                  
-                <section id="content4">
-                  <p>
-                    yeap
-                  </p>
-                  <p>
-                   subhanallah
-                </p>
-                </section>
-                  
-              </main>
-        </div>    
-     </section>
      <!-- Features -->
-     <section class="features">
+     <section id="features" class="features">
         <div class="features__wrapper _container">
             <div class="feature__heading">
                 Features
             </div>
-            <div class="features__block">
+            <div class="features__block reveal fade-bottom">
                 <div class="feature__card">
                     <img src="https://uploads-ssl.webflow.com/628c38ada0108974092e8941/62daedee0fde394952cc5bb6_Cloud.svg" alt="img">
                     <div>
@@ -258,7 +201,7 @@
                 <h1>Integrations</h1>
                 <p>Integrated with all tools you already  know and love</p>
             </div>
-            <div class="integrations__icons">
+            <div class="integrations__icons reveal fade-right">
                 <div class="int__card">
                     <img src="https://uploads-ssl.webflow.com/628c38ada0108974092e8941/62ec35e470decad8d2313456_Zendesk-01.png" alt="logo">
                     <span>Zendesk</span>
@@ -320,8 +263,8 @@
               <h1>Investors</h1>
               <p>Backed by the same investors who invested early in Lyft, Palantir, Udemy, Gusto, Instacart, LucidChart, Webflow.</p>
               <div class="investors__icons">
-                <img src="https://uploads-ssl.webflow.com/628c38ada0108974092e8941/62ec53ce1a9e2b19d0be0b5c_04-VillageGlobal-blue-on-yellow.png" alt="icon">
-                <img src="https://uploads-ssl.webflow.com/628c38ada0108974092e8941/62ec549041fac7a9b3000601_Bling%20capital%20logo%20original-01.png" alt="icon">
+                <img class="reveal fade-right" src="https://uploads-ssl.webflow.com/628c38ada0108974092e8941/62ec53ce1a9e2b19d0be0b5c_04-VillageGlobal-blue-on-yellow.png" alt="icon">
+                <img class="reveal fade-left" src="https://uploads-ssl.webflow.com/628c38ada0108974092e8941/62ec549041fac7a9b3000601_Bling%20capital%20logo%20original-01.png" alt="icon">
               </div>
         </div>
      </section>
